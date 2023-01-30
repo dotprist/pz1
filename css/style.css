@@ -1,0 +1,240 @@
+/* &display=swap&subset=cyrillic-ext (вставить в плагин) для удаленного подключения*/
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:regular,700,900&display=swap&subset=cyrillic-ext);
+@import url(https://fonts.googleapis.com/css?family=Poppins:300,regular,500,600,700&display=swap&subset=cyrillic-ext);
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+li {
+	list-style: none;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+img {
+	vertical-align: top;
+}
+
+html,
+body {
+	height: 100%;
+	font-family: "Roboto";
+}
+
+html {
+	font-size: 16px;
+	/* по умолчанию */
+}
+
+body {
+	line-height: 1;
+
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	padding: 20px;
+}
+
+/* --------------- */
+
+.firstblock {
+	max-width: 1020px;
+	margin: 0px auto;
+	padding: 100px 87px 00px 87px;
+	}
+
+.firstpage {
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 24px;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	color: #4B4B4B;
+	margin: 0px 0px 30px 0px;
+}
+
+.firstblock_title {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+	color: #02133C;
+	margin: 0px 0px 36px 0px;
+}
+
+.firstblock_text {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+	color: #4B4B4B;
+	margin: 0px 0px 54px 0px;
+}
+
+.twopage {
+	margin: 0px 0px -120px 0px;
+}
+
+.whoweare {
+	padding: 0px 0px 160px 0px;
+}
+
+.tworomb {
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 24px;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	color: #4B4B4B;
+	margin: 0px 0px 33px 0px;
+}
+
+.twoblock_h2 {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+	color: #02133C;
+	margin: 0px 0px 78px 0px;
+}
+
+.car_h2,
+.tires_h2 {
+	font-weight: 900;
+	font-size: 19px;
+	line-height: 26px;
+	text-align: center;
+	color: #02133C;
+	margin: 0px 0px 20px 0px;
+}
+
+.car_text,
+.tires_text {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	text-align: center;
+	letter-spacing: 0.15px;
+	color: #4B4B4B;
+	margin: 0px 0px -50px 0px;
+}
+
+.twoblock {
+	max-width: 1020px;
+	margin: 0px auto;
+	padding: 100px 87px 00px 87px;
+	}
+
+.car,
+.tires {
+	max-width: 237px;
+	margin: 0px 0px 124px 0px;
+}
+
+.imagecar,
+.imagetires {
+	margin: 0px 0px 33px 0px;
+	text-align: center;
+}
+
+.mytext {
+	max-width: 1020px;
+	margin: 0px auto;
+	padding: 100px 87px 00px 87px;
+		font-family: "Poppins";
+}
+
+.mytext h2 {
+	font-weight: 600;
+	font-size: 32px;
+	line-height: 48px;
+	color: #000000;
+	margin: -100px 0px 26px 0px;
+	width: 1398px;
+}
+
+.mytext h3 {
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 36px;
+	color: #000000;
+	width: 866px;
+	margin: 0px 0px 19px 0px;
+}
+
+h4 {
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 26px;
+	color: #000000;
+	margin: 20px 0px 20px 0px;
+}
+
+.solotext,
+.ulli,
+.abzac2,
+.abzac3,
+.abzac4,
+.abzac5,
+.abzac6,
+.abzac7,
+.abzac8,
+.abzac9 {
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 26px;
+	color: #000000;
+}
+
+.bigbigtext p {
+	margin: 20px 0px 20px 0px;
+}
+.star{
+	max-width: 1020px;
+		margin: 0px auto;
+		padding: 100px 87px 00px 87px;
+				font-family: "Poppins";
+}
+.imagestar{
+	margin: -80px 0px 9px 0px;
+}
+.star_h2{
+	font-weight: 500;
+		font-size: 44px;
+		line-height: 58px;
+		color: #000000;
+		width: 465px;
+		margin: 00px 0px 25px 0px;
+}
+.star_text{
+	font-weight: 300;
+		font-size: 18px;
+		line-height: 26px;
+		color: #000000;
+		width: 436px;
+}
